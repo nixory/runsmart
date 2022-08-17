@@ -865,3 +865,103 @@ h6 {
 .pageup img {
   width: 100%;
 }
+
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 700px;
+  }
+
+  .carousel__img {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .carousel__inner {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+
+  .header__logo {
+    width: 200px;
+  }
+
+  .header__phone {
+    font-size: 17px;
+  }
+
+  .promo__header {
+    font-size: 39px;
+  }
+
+  .promo__subheader {
+    font-size: 21px;
+  }
+
+  .advantages__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .advantages__item {
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .title_left {
+    font-size: 32px;
+  }
+
+  .consultation__descr {
+    font-size: 18px;
+  }
+
+  .carousel__img {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .carousel__inner {
+    width: 400px;
+  }
+
+  .carousel .slick-prev,
+  .carousel .slick-next {
+    left: -9px;
+  }
+
+  .carousel .slick-prev img,
+  .carousel .slick-next img {
+    width: 24px;
+    height: 50px;
+  }
+
+  .carousel .slick-next {
+    right: -9px;
+    left: auto;
+  }
+
+  .catalog__tab {
+    width: 136px;
+    font-size: 14px;
+  }
+
+  .catalog__content {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
